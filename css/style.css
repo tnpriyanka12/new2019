@@ -34,7 +34,13 @@ h3 {
   padding: 0;
   z-index: 1;
   position: relative;
-  color: #fff
+}
+
+h4, h5{
+  font-family: "Montserrat";
+  font-weight: normal;
+  font-size: 16px;
+  text-align: center;
 }
 
 .center { margin: 0 auto; }
@@ -120,8 +126,8 @@ h3 {
 } */
 
 #page2{
-  background-color: #747474;
-  color: #333333;
+  background-color: #efe694c4;
+  color: #727272;
   height: 300px;
   margin: 0 auto;
   overflow: hidden;
@@ -138,20 +144,20 @@ h3 {
 }
 
 #page3{
-  background: linear-gradient;
+  background: url(../images/page-bg-bw.jpg) 50% 0 no-repeat fixed;
   color: #fff;
   height: 600px;
   padding: 170px 0 0 0;
   background-size: cover;
 }
 #page4{
-  background-color: #fff;
-  color: #333333;
+  background-color: #efe694c4;
+  color: #727272;
   height: 300px;
   padding: 200px 0;
 }
 #page5{
-  background: url(../images/page-bg.jpg) 50% 0 no-repeat fixed;
+  background: url(../images/page-bg-bw.jpg) 50% 0 no-repeat fixed;
   height: 200px;
   margin: 0 auto;
   padding: 250px 0;
@@ -160,5 +166,5 @@ h3 {
 }
 
 
-#copyright { color: #fff; font-family:"Wellfleet"; font-size: 14px; margin-top: 100px; text-align: center; }
+#copyright { color: #fff; font-family:"Expletus Sans"; font-size: 14px; margin-top: 100px; text-align: center; }
 #copyright a { text-decoration: none; color: #fff; }
