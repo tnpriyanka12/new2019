@@ -1,4 +1,3 @@
-
 body{
   margin: 0;
   padding: 0;
@@ -6,19 +5,12 @@ body{
 }
 
 
-#divider {
-  background: url('../images/divider.png')no-repeat;
-  width: 300px;
-  height: 35px;
-  margin: 0px auto 27px auto;
-}
-
 h1 {
   font-family:"Expletus Sans", sans-serif;
   font-weight:normal;
   font-size: 55px;
   text-align: center;
-  color: #fff;
+  color: #FFE400;
   margin: 0;
   padding: 0;
 }
@@ -42,6 +34,7 @@ h3 {
   padding: 0;
   z-index: 1;
   position: relative;
+  color: #fff
 }
 
 .center { margin: 0 auto; }
@@ -55,14 +48,16 @@ h3 {
   float: left;
   font-size: 30px;
   margin-top: 20px;
-  color: #fff;
   font-family:"Major Mono Display";
   font-weight: bold;
  }
 
-
+#intro{
+  width: 48px; height: 77px; margin: 0 auto; position: relative; bottom: -35px; font-size: 30px;
+}
 #header {
   width: 100%;
+  background-color: #727272;
   /* background: url('../images/header-bg.png'); */
   height: 80px;
   position: fixed;
@@ -107,24 +102,43 @@ h3 {
   width: 100%;
 }
 #page1{
-  background:url('../images/page-bg.jpg') 50% 0 no-repeat fixed;
+  background:url('../images/page-bg-bw.jpg') 50% 0 no-repeat fixed;
+  background-color: rgba(0,0,0,0.3)
   color: #fff;
   height: 600px;
   margin: 0;
   padding: 200px 0 260px 0;
   background-size: cover;
 }
+/* #page1:before{
+  content: "";
+  position: absolute;
+  left: 0; right: 0;
+  top: 0; bottom: 0;
+  background: rgba(255,101,47,0.4);
+  background-size: cover;
+} */
 
 #page2{
-  background-color: #fff;
+  background-color: #747474;
   color: #333333;
   height: 300px;
   margin: 0 auto;
   overflow: hidden;
   padding: 200px 0;
 }
+
+#layer-red {
+    background-color: rgba(255, 101, 47, 0.7);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
 #page3{
-  background: url(../images/page-bg.jpg) 50% 0 no-repeat fixed;
+  background: linear-gradient;
   color: #fff;
   height: 600px;
   padding: 170px 0 0 0;
