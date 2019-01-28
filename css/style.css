@@ -243,6 +243,9 @@ i{
 #contact-text * {
   padding: 10px;
 }
+#contact-text > a {
+  padding: 2px;
+}
 
 img{
   height: 150px;
